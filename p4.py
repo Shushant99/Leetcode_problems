@@ -4,9 +4,7 @@ class Solution:
         num3.sort()
         median=0
         if len(num3)%2==0:
-            temp1=num3[(len(num3)//2)-1]
-            temp2=num3[(len(num3)//2)]
-            median=(temp1+temp2)/2
+            median=(num3[(len(num3)//2)-1]+num3[(len(num3)//2)])/2
 
         else:
             median=num3[len(num3)//2]
